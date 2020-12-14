@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(330deg, rgba(11, 29, 38, 0) 31%, #0B1D26 108%);
+    background-image: url("images/bg-hero.png"), url("images/HG.png"); 
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    
+    display: flex;
+    list-style: none;
+}
+
+li a {
+   
+    text-decoration: none;
+    margin: 0;
+    padding-right: 40px;
+    color: #ffffff; 
+    font-size: 18px;
+}
+
+.account {
+    display: flex;
+    font-size: 17px;
+    color: #ffffff;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.icon-account {
+    padding-right: 13px;
+}
+
+.container-box-center {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-top: 200px;   
+}
+
+.container-box-follow-us {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: -200px;
+   margin-top: 200px;
+   
+}
+
+.box-follow-us {
+    font-size: 18px;
+    color: #ffffff;
+    transform: rotate(90deg);   
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+       
+}
+
+.box-icon-instagram {
+   padding-top: 25px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box-icon-twitter {
+    padding-top: 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.title-box-center {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FBD784;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.text-box-center {
+    font-size: 88px;
+    color: #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/********** Section Two ************/
+
+.image-mountain {
+    margin-top: -50px;
+}
+
+/********** Section Three ************/
+
+.image-man-photografe {
+    margin-top: -720px;   
+}
