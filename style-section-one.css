@@ -80,7 +80,7 @@ li a {
 
 .title-box-center {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     text-transform: uppercase;
     color: #FBD784;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -94,7 +94,7 @@ li a {
 
 /********** Section Two ************/
 
-.image-mountain {
+.image-mountain {   
     margin-top: -50px;
 }
 
@@ -103,3 +103,61 @@ li a {
 .image-man-photografe {
     margin-top: -720px;   
 }
+
+/********** Section Four ************/
+.section-box-one {
+     
+    margin-top: -350px;
+    padding: 0;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+    height: 100vh;
+}
+
+.container-box-one {
+    display: flex;
+    max-width: 1462px;
+    margin: 0 auto;
+}
+
+.box-one {  
+    max-width: 633px;
+    max-height: 439px;
+    padding-top: 180px;
+}
+
+.box-image-01 {
+    position: absolute;
+
+}
+
+.caption-box-one {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.title-box-one { 
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.text-box-one {
+    margin-top: -50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.link-box-one {
+    font-size: 18px;
+    color: #FBD784;
+}
+
+.box-photografe-one {
+    padding-left: 350px;
+    padding-top: 90px;
+}
+
