@@ -2,10 +2,18 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: linear-gradient(330deg, rgba(11, 29, 38, 0) 31%, #0B1D26 108%);
     background-image: url("images/bg-hero.png"), url("images/HG.png"); 
     background-repeat: no-repeat;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+hr {
+    border-color: #FBD784;
+    width: 72px;
+    height: 2px;
+    background: #FBD784;
+    margin-top: 26px;
+    margin-right: 18px;
 }
 
 header {
@@ -109,8 +117,14 @@ li a {
 /********** Section Box One ************/
 .section-box-one { 
     margin-top: -350px;
+    position: relative;
     padding: 0;
-    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0b1d26+0,0b1d26+0,0b1d26+36,0b1d26+76&0+0,1+20 */
+    background: -moz-linear-gradient(top,  rgba(11,29,38,0) 0%, rgba(11,29,38,1) 20%, rgba(11,29,38,1) 36%, rgba(11,29,38,1) 76%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(11,29,38,0) 0%,rgba(11,29,38,1) 20%,rgba(11,29,38,1) 36%,rgba(11,29,38,1) 76%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(11,29,38,0) 0%,rgba(11,29,38,1) 20%,rgba(11,29,38,1) 36%,rgba(11,29,38,1) 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000b1d26', endColorstr='#0b1d26',GradientType=0 ); /* IE6-9 */
+    
     height: 100vh;
 }
 
@@ -121,16 +135,18 @@ li a {
 }
 
 .box-one {  
-    max-width: 633px;
-    max-height: 439px;
     padding-top: 180px;
+    padding-left: 140px;
 }
 
 .box-image-01 {
+    margin-top: -60px;
+    margin-left: -139px;
     position: absolute;
 }
 
 .caption-box-one {
+    margin-bottom: 27px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     letter-spacing: 6px;
@@ -140,12 +156,15 @@ li a {
 }
 
 .title-box-one { 
+    margin-top: -100px;
     font-size: 64px;
-    color: #ffffff;
+    color: #ffffff; 
 }
 
 .text-box-one {
     margin-top: -50px;
+    margin-bottom: 27px;
+    line-height: 32px;  
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     color: #ffffff;
@@ -158,8 +177,7 @@ li a {
 }
 
 .box-photograph-one {
-    padding-left: 350px;
-    padding-top: 90px;
+    margin-left: 110px;
 }
 
 /********** Section Box Two ************/
@@ -186,7 +204,12 @@ li a {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.box-caption-hr-two {
+    display: flex;
+}
+
 .caption-box-two {
+    margin-bottom: 27px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     letter-spacing: 6px;
@@ -198,10 +221,13 @@ li a {
 .title-box-two {
     font-size: 64px;
     color: #ffffff; 
+    margin-top: -85px;
 }
 
 .text-box-two {
     margin-top: -50px;
+    margin-bottom: 27px;
+    line-height: 32px;  
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     color: #ffffff;
@@ -227,16 +253,20 @@ li a {
 }
 
 .box-three {
-    
+    margin-left: 150px;
+    padding-top: 76px;
 }
+
 
 .box-image-03 {
     position: absolute;
     margin-top: -54px;
-    margin-left: -230px;
+    margin-left: -370px;
+    padding-left: 230px;
 }
 
 .caption-box-three {
+    margin-bottom: 27px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     letter-spacing: 6px;
@@ -246,12 +276,15 @@ li a {
 }
 
 .title-box-three {
+    margin-top: -100px;
     font-size: 64px;
     color: #ffffff; 
 }
 
 .text-box-three {
     margin-top: -50px;
+    margin-bottom: 27px;
+    line-height: 32px;  
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     color: #ffffff;
@@ -277,18 +310,18 @@ li a {
 }
 
 .box-footer-one {
-   
-    padding-right: 543px;
+    padding-right: 553px;
 }
 
 .caption-list-one {
+    padding-top: 10px;
     font-size: 18px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
 }
 
 .copyright-footer {
-    padding-top: 70px;
+    padding-top: 145px;
     font-size: 18px;
     color: #FFFFFF;
     opacity: 0.5;
@@ -297,11 +330,11 @@ li a {
 
 /**************** Box Footer Two ******************/
 .box-footer-two {
-   
     padding-right: 97px;
 }
 
 .caption-list-two {
+    margin-top: -28px;
     font-size: 24px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FBD784;
@@ -309,9 +342,11 @@ li a {
 
 .box-list-two {
     margin-left: -37px;
+    margin-top: -42px;
 }
 
 .list-two {
+    line-height: 45px;
     display: inline;
     font-size: 18px;
     color: #ffffff;
@@ -320,10 +355,12 @@ li a {
 /**************** Box Footer Three ******************/
 
 .box-footer-three {
+    padding-left: 140px;
     
 }
 
 .caption-list-three {
+    margin-top: -28px;
     font-size: 24px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FBD784; 
@@ -334,6 +371,7 @@ li a {
 }
 
 .list-three {
+    line-height: 45px;
     display: flex;
     flex-direction: column;
     font-size: 18px;
