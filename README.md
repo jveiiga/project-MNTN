@@ -1,7 +1,7 @@
 <h1 align="center">Project MNTN&nbsp🧗🏽‍♂️<h1/>
 
-  <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-green">
-  <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20MNTN-moss">
+ <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-green">
+ <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20MNTN-moss">
  
 <h3 align="center">Layout Free Figma<h3/> 
 <h3 align="center">Conceitos utilizados a partir da minha base de conhecimento (Júnior).<h3/>
