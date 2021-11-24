@@ -1,7 +1,7 @@
 <h1 align="center">Project MNTN&nbsp🧗🏽‍♂️<h1/>
 
   <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-green">
-  <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20MNTN-yellow">
+  <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20MNTN-moss">
  
 <h3 align="center">Layout Free Figma<h3/> 
 <h3 align="center">Conceitos utilizados a partir da minha base de conhecimento (Júnior).<h3/>
@@ -14,8 +14,14 @@
 <h2 align="center"><a href="https://jveiiga.github.io/project-MNTN/" alt="MNTN" target="_blank">Clique aqui para ver meu projeto final!<a/><h2> 
   
 ## 🖥  Imagem
+  
+<details>  
+<summary>Clique para ver imagens do projeto</summary>  
  
 ![_Users_jefersonveiga_Documents_new-project_project-MNTN_index html (1)](https://user-images.githubusercontent.com/57195630/126806012-36faf257-c109-4bf8-bcb6-ecff09444c68.png)
+  
+</details>
+
 
 ## 🌐 Linguagens e tecnologias utilizadas
 <a href="https://www.figma.com/file/4cCIOASLzUQWUBP7jsVrN7/MNTN---Landing-Page-(Community)?node-id=0%3A1"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40" target="_blank"/> </a>
